@@ -4,6 +4,7 @@ from os import path
 import os
 
 if __name__ == '__main__':
+	print "insta: 8km1"
 	EmailType = str(raw_input("1 @outlook.com/2 @hotmail.com: "))
 	EmailsList = str(raw_input("Emails list file: "))
 	if os.path.isfile(EmailsList) == True:
